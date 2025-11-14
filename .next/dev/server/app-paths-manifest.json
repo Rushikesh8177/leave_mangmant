@@ -1,0 +1,14 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/admin/page": "app/admin/page.js",
+  "/admin/users/page": "app/admin/users/page.js",
+  "/api/auth/route": "app/api/auth/route.js",
+  "/api/leaves/[id]/route": "app/api/leaves/[id]/route.js",
+  "/api/leaves/route": "app/api/leaves/route.js",
+  "/api/users/[id]/route": "app/api/users/[id]/route.js",
+  "/api/users/route": "app/api/users/route.js",
+  "/apply-leave/page": "app/apply-leave/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/login/page": "app/login/page.js",
+  "/reports/page": "app/reports/page.js"
+}
