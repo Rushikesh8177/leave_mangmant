@@ -10,7 +10,7 @@ function getUser(req: Request) {
   try {
     return jwt.verify(token, process.env.JWT_SECRET!);
   } catch {
-    return null;
+    return null;   
   }
 }
 

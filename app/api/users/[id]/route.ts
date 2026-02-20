@@ -14,7 +14,7 @@ function getAdmin(req: Request) {
     return user.role === "ADMIN" ? user : null;
   } catch {
     return null;
-  }
+  }     
 }
 
 export async function PUT(req: Request, context: any) {
