@@ -14,6 +14,10 @@ function getUser(req: Request) {
   }
 }
 
+
+
+
+
 export async function GET(req: Request) {
   const user = getUser(req);
   if (!user) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
