@@ -16,7 +16,7 @@ function getUser(req: Request) {
 
 // helper function to check if user is admin
 //gg
-
+////////////////////////////////////////////////////////////////////////////////
 
 
 export async function GET(req: Request) {
